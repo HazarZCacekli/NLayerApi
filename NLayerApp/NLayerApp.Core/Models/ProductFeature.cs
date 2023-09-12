@@ -13,6 +13,6 @@ namespace NLayerApp.Core.Models
         public int Width { get; set; }
         public int Weight { get; set; }
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

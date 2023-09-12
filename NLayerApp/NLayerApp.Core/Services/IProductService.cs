@@ -13,6 +13,7 @@ namespace NLayerApp.Core.Services
         Task<CustomResponseDTO<ProductDTO>> AddAsync(ProductCreateDTO dto);
         Task<CustomResponseDTO<IEnumerable<ProductDTO>>> AddRangeAsync(IEnumerable<ProductCreateDTO> dto);
         Task<CustomResponseDTO<ProductWithProductFeatureDTO>> GetWithProductFeature(int id);
+        Task<CustomResponseDTO<IEnumerable<ProductWithProductFeatureDTO>>> GetAllWithProductFeature();
 
     }
 }

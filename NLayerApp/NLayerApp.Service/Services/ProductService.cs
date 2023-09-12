@@ -35,6 +35,13 @@ namespace NLayerApp.Service.Services
             return CustomResponseDTO<IEnumerable<ProductDTO>>.Success(newdtos,StatusCodes.Status201Created);
         }
 
+        public async Task<CustomResponseDTO<IEnumerable<ProductWithProductFeatureDTO>>> GetAllWithProductFeature()
+        {
+            var products = _productRepository.GetAllWithProductFeature().ToList();
+            var mappedProducts = _mapper.Map<IEnumerable<ProductWithProductFeatureDTO>>(products);
+            return CustomResponseDTO<IEnumerable<ProductWithProductFeatureDTO>>.Success(mappedProducts,StatusCodes.Status200OK);
+        }
+
         public async Task<CustomResponseDTO<ProductWithProductFeatureDTO>> GetWithProductFeature(int id)
         {
             var entity = await _productRepository.GetWithProductFeature(id);

@@ -12,6 +12,6 @@ namespace NLayerApp.Core.Models
         public int Stock { get; set; }
         public decimal Price { get; set; }
         public int? ProductFeatureId { get; set; }
-        public ProductFeature ProductFeature { get; set; }
+        public ProductFeature? ProductFeature { get; set; }
     }
 }

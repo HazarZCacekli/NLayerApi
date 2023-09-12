@@ -53,8 +53,7 @@ namespace NLayerApp.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductFeatureId")
-                        .IsUnique();
+                    b.HasIndex("ProductFeatureId");
 
                     b.ToTable("Products");
 
@@ -206,8 +205,8 @@ namespace NLayerApp.Repository.Migrations
             modelBuilder.Entity("NLayerApp.Core.Models.Product", b =>
                 {
                     b.HasOne("NLayerApp.Core.Models.ProductFeature", "ProductFeature")
-                        .WithOne("Product")
-                        .HasForeignKey("NLayerApp.Core.Models.Product", "ProductFeatureId")
+                        .WithMany("Products")
+                        .HasForeignKey("ProductFeatureId")
                         .OnDelete(DeleteBehavior.SetNull)
                         .HasConstraintName("FK_Product_ProductFeature");
 
@@ -216,8 +215,7 @@ namespace NLayerApp.Repository.Migrations
 
             modelBuilder.Entity("NLayerApp.Core.Models.ProductFeature", b =>
                 {
-                    b.Navigation("Product")
-                        .IsRequired();
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

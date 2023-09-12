@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LfqR3GYtiURZm/iQjmiorNt6vBzwGL7CCgUSqFRD+J1R0BnTnxjZ0okLUdXzY4q2lxMjaO17N2GSDTGCrSH0lw==",
+  "dgSpecHash": "0FBhDX4QGohorM3EfAiA16k0XDYmcJzl9PpQjjYHyNzWGDJa4CUuuBAsPTbcLk1qlFUXM2HBrhh1nXtNVOYDhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.Repository\\NLayerApp.Repository.csproj",
+  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.Repository\\NLayerApp.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\focac\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\focac\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",

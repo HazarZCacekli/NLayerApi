@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NIhY3sDcOKVY2/NDPYaRC2m9oJZ1T4J2IpTlcyxBI1SyAoNCOsjN55kGwKs1EXl8AY8qAu1/C3xL8Udz/uhiag==",
+  "dgSpecHash": "RO3i3JTb6ulHh+K7B3WP4P7hJ7TugYb5H8tbQufjKL1123po5T9+EDm6cFk04il0IDBg0blvmMNQK6uNPg8jxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.API\\NLayerApp.API.csproj",
+  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.API\\NLayerApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\focac\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\focac\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

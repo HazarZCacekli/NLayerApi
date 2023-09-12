@@ -15,7 +15,7 @@ namespace NLayerApp.Repository.Configurations
         {
             builder.Property(x => x.Name).HasMaxLength(70);
             builder.Property(x => x.Price).HasPrecision(8,2);
-            builder.HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<Product>(x => x.ProductFeatureId)
+            builder.HasOne(x => x.ProductFeature).WithMany(x => x.Products).HasForeignKey(x => x.ProductFeatureId)
                 .OnDelete(DeleteBehavior.SetNull)
                 .HasConstraintName("FK_Product_ProductFeature");
         }

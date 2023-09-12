@@ -628,6 +628,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "NLayerApp.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "NLayerApp.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NLayerApp.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayerApp.Caching.dll": {}
+        }
+      },
       "NLayerApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1838,6 +1851,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NLayerApp.Caching/1.0.0": {
+      "type": "project",
+      "path": "../NLayerApp.Caching/NLayerApp.Caching.csproj",
+      "msbuildProject": "../NLayerApp.Caching/NLayerApp.Caching.csproj"
+    },
     "NLayerApp.Core/1.0.0": {
       "type": "project",
       "path": "../NLayerApp.Core/NLayerApp.Core.csproj",
@@ -1859,7 +1877,7 @@
       "Autofac.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
-      "NLayerApp.Service >= 1.0.0",
+      "NLayerApp.Caching >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1869,11 +1887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.API\\NLayerApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.API\\NLayerApp.API.csproj",
       "projectName": "NLayerApp.API",
-      "projectPath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.API\\NLayerApp.API.csproj",
+      "projectPath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.API\\NLayerApp.API.csproj",
       "packagesPath": "C:\\Users\\focac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.API\\obj\\",
+      "outputPath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\focac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1890,8 +1908,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.Service\\NLayerApp.Service.csproj": {
-              "projectPath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.Service\\NLayerApp.Service.csproj"
+            "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.Caching\\NLayerApp.Caching.csproj": {
+              "projectPath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.Caching\\NLayerApp.Caching.csproj"
             }
           }
         }

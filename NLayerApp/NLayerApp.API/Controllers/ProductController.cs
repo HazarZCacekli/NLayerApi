@@ -68,5 +68,11 @@ namespace NLayerApp.API.Controllers
         {
             return CreateActionResult(await _service.GetWithProductFeature(id));
         }
+
+        [HttpGet("GetAllWithProductFeature")]
+        public async Task<IActionResult> GetAllWithProductFeature()
+        {
+            return CreateActionResult(await _service.GetAllWithProductFeature());
+        }
     }
 }

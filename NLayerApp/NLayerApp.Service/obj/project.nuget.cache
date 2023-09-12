@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jsfb95DRtmmZhn51OlG9H4k49AZshDDDzoiO2rGH+IhUlNQMtNCqVgh4ArG1UklyJ+j4AtDd4BP5S+XDahEL9Q==",
+  "dgSpecHash": "QDi4mdCJCZcp+3MnwKoYSqvPUxiKXoP8Tbqe1x2UnMbfURTek77jXRhYE+QDsQsGUTqbMvFwBEtvs0Fx5ECDRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.Service\\NLayerApp.Service.csproj",
+  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.Service\\NLayerApp.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\focac\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\focac\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

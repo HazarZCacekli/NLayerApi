@@ -18,6 +18,11 @@ namespace NLayerApp.Repository.Repositories
         {
         }
 
+        public IQueryable<Product> GetAllWithProductFeature()
+        {
+            return _context.Products.Include(x=> x.ProductFeature).AsQueryable();
+        }
+
         public async Task<Product> GetWithProductFeature(int id)
         {
             return await _context.Products.Include(x=> x.ProductFeature).SingleAsync(x=> x.Id == id);

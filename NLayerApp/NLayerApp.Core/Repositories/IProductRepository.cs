@@ -11,5 +11,7 @@ namespace NLayerApp.Core.Repositories
     public interface IProductRepository : IGenericRepository<Product>
     {
         Task<Product> GetWithProductFeature(int id);
+        IQueryable<Product> GetAllWithProductFeature();
+
     }
 }

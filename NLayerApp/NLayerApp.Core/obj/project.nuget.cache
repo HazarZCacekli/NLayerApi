@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQwtw2KwwHvqqPI1R/NgjA/5X9ogL3ZPqRwJOp4wTDfHu5kjqKckid+HvWvJQMb/s67ak2U1dpdxteZ49Rg+ZA==",
+  "dgSpecHash": "kmJdsSLAfO77nDXKwP4m3cibxX5GT9Ebym1XLWjTbim9oseecuhU5+KE+Yh1uHKEAx+Fxq7/yr7fQycPlsJEMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp.Core\\NLayerApp.Core\\NLayerApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\focac\\source\\repos\\NLayerApp\\NLayerApp.Core\\NLayerApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\focac\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\focac\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

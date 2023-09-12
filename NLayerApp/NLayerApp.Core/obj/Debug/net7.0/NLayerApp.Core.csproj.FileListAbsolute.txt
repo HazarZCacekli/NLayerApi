@@ -10,3 +10,15 @@ C:\Users\focac\source\repos\NLayerApp.Core\NLayerApp.Core\obj\Debug\net7.0\refin
 C:\Users\focac\source\repos\NLayerApp.Core\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.pdb
 C:\Users\focac\source\repos\NLayerApp.Core\NLayerApp.Core\obj\Debug\net7.0\ref\NLayerApp.Core.dll
 C:\Users\focac\source\repos\NLayerApp.Core\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.csproj.AssemblyReference.cache
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\bin\Debug\net7.0\NLayerApp.Core.deps.json
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\bin\Debug\net7.0\NLayerApp.Core.dll
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\bin\Debug\net7.0\NLayerApp.Core.pdb
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.csproj.AssemblyReference.cache
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.AssemblyInfoInputs.cache
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.AssemblyInfo.cs
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.dll
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\refint\NLayerApp.Core.dll
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\NLayerApp.Core.pdb
+C:\Users\focac\source\repos\NLayerApp\NLayerApp.Core\obj\Debug\net7.0\ref\NLayerApp.Core.dll
